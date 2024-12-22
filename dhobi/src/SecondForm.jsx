@@ -93,7 +93,13 @@ const SecondForm = ({ handleSecondForm, setFormNumber }) => {
           <div className="form-group">
             <label htmlFor="pickupDate">Pickup Date</label>
             <div className="secondForm">
-              <MdOutlineDateRange className="icon-style" />
+              <MdOutlineDateRange
+                style={{
+                  fontSize: "2.8em",
+                  color: "white",
+                }}
+                className="icon-style"
+              />
               <input
                 type="date"
                 id="pickupDate"
@@ -106,7 +112,13 @@ const SecondForm = ({ handleSecondForm, setFormNumber }) => {
           <div className="form-group">
             <label htmlFor="pickupTime">Pickup Time</label>
             <div className="secondForm">
-              <MdOutlineTimer className="icon-style" />
+              <MdOutlineTimer
+                style={{
+                  fontSize: "2.8em",
+                  color: "white",
+                }}
+                className="icon-style"
+              />
               <input
                 type="time"
                 id="pickupTime"
