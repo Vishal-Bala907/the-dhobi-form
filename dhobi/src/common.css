@@ -58,3 +58,39 @@ textarea {
   justify-content: center;
   margin: 15px 0px 0px 0px;
 }
+
+.service-logo {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+.service-logo.selected {
+  border: 3px solid rgb(66, 255, 66);
+  border-radius: 10px;
+}
+.service-logo {
+  width: 50px;
+  height: auto;
+}
+
+.logo-text {
+  color: white;
+  font-weight: 500;
+  font-size: small;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.secondForm {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
